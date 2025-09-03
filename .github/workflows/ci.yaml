@@ -1,7 +1,7 @@
 name: CI - Hello World
 
 on:
-  push:                # runs on every push
+  workflow_dispatch:                # runs manually
 
 jobs:
   hello-world-job:
